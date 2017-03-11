@@ -15,72 +15,72 @@ Tools included in the hash-identifier package
 hash-identifier – Identify different types of hashes
 
 Identify the different types of hashes.
-hash-identifier Usage Example
-root@cyrus-os:~ # python HashID.py
-   
-############################################################################# 
-#                                                                           #
-#                             CYRUSTOOL                                     #
-#                         HASH IDENTIFIER                                   #
-#                     Welcome and dont disclaimer                           #
-#                       Author By -Nirvan Sukma-                            #
-#                                                                           #
-#  contact me in nirvansukma1998@gmail.com or http://nearvanskm.16mb.com/   #
-#    TEAM Penetration From Indonesia : http://www.cyruscyberid.tk/          # 
-#                                                                           #
-#                                                                           #
-#############################################################################
+h
 
-   -------------------------------------------------------------------------
- HASH: 098f6bcd4621d373cade4e832627b4f6
+Hash Identifier
 
-Possible Hashs:
-[+]  MD5
-[+]  Domain Cached Credentials - MD4(MD4(($pass)).(strtolower($username)))
+Software to identify the different types of hashes used to encrypt data and especially passwords.
 
-Least Possible Hashs:
-[+]  RAdmin v2.x
-[+]  NTLM
-[+]  MD4
-[+]  MD2
-[+]  MD5(HMAC)
-[+]  MD4(HMAC)
-[+]  MD2(HMAC)
-[+]  MD5(HMAC(Wordpress))
-[+]  Haval-128
-[+]  Haval-128(HMAC)
-[+]  RipeMD-128
-[+]  RipeMD-128(HMAC)
-[+]  SNEFRU-128
-[+]  SNEFRU-128(HMAC)
-[+]  Tiger-128
-[+]  Tiger-128(HMAC)
-[+]  md5($pass.$salt)
-[+]  md5($salt.$pass)
-[+]  md5($salt.$pass.$salt)
-[+]  md5($salt.$pass.$username)
-[+]  md5($salt.md5($pass))
-[+]  md5($salt.md5($pass))
-[+]  md5($salt.md5($pass.$salt))
-[+]  md5($salt.md5($pass.$salt))
-[+]  md5($salt.md5($salt.$pass))
-[+]  md5($salt.md5(md5($pass).$salt))
-[+]  md5($username.0.$pass)
-[+]  md5($username.LF.$pass)
-[+]  md5($username.md5($pass).$salt)
-[+]  md5(md5($pass))
-[+]  md5(md5($pass).$salt)
-[+]  md5(md5($pass).md5($salt))
-[+]  md5(md5($salt).$pass)
-[+]  md5(md5($salt).md5($pass))
-[+]  md5(md5($username.$pass).$salt)
-[+]  md5(md5(md5($pass)))
-[+]  md5(md5(md5(md5($pass))))
-[+]  md5(md5(md5(md5(md5($pass)))))
-[+]  md5(sha1($pass))
-[+]  md5(sha1(md5($pass)))
-[+]  md5(sha1(md5(sha1($pass))))
-[+]  md5(strtoupper(md5($pass)))
+
+Encryption formats supported:
+
+    ADLER-32
+    CRC-32
+    CRC-32B
+    CRC-16
+    CRC-16-CCITT
+    DES(Unix)
+    FCS-16
+    GHash-32-3
+    GHash-32-5
+    GOST R 34.11-94
+    Haval-160
+    Haval-192 110080 ,Haval-224 114080 ,Haval-256
+    Lineage II C4
+    Domain Cached Credentials
+    XOR-32
+    MD5(Half)
+    MD5(Middle)
+    MySQL
+    MD5(phpBB3)
+    MD5(Unix)
+    MD5(Wordpress)
+    MD5(APR)
+    Haval-128
+    MD2
+    MD4
+    MD5
+    MD5(HMAC(Wordpress))
+    NTLM
+    RAdmin v2.x
+    RipeMD-128
+    SNEFRU-128
+    Tiger-128
+    MySQL5 - SHA-1(SHA-1($pass))
+    MySQL 160bit - SHA-1(SHA-1($pass))
+    RipeMD-160
+    SHA-1
+    SHA-1(MaNGOS)
+    Tiger-160
+    Tiger-192
+    md5($pass.$salt) - Joomla
+    SHA-1(Django)
+    SHA-224
+    RipeMD-256
+    SNEFRU-256
+    md5($pass.$salt) - Joomla
+    SAM - (LM_hash:NT_hash)
+    SHA-256(Django)
+    RipeMD-320
+    SHA-384
+    SHA-256
+    SHA-384(Django)
+    SHA-512
+    Whirlpool
+    And more…
+
+Encryption algorithms that can not be differentiated unless they have been decrypted, so the efficiency of the software also depends on the user's criteria.
+
 
    -------------------------------------------------------------------------
 
